@@ -1,0 +1,391 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {}
+
+.banner_section {
+    width: 100%;
+    margin: 0 auto;
+    height: 320px;
+    position: relative;
+}
+
+.banner_section img {
+    width: 100%;
+    height: 320px;
+}
+
+.register {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    text-align: center;
+}
+
+.register a {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(22, 160, 93, 0.8);
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+}
+
+.register a:hover {
+    background: #16A05D;
+}
+
+.location_section {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    left: 480px;
+    top: 150px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 10px 18px #888888;
+}
+
+.nav_section {
+    width: 400px;
+}
+
+.nav_section ul {
+    width: 100%;
+    height: 55px;
+}
+
+.nav_section ul li {
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+.nav_section ul li a {
+    width: 198px;
+    display: inline-block;
+    font-family: sans-serif;
+    color: #212121;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 19px 0px;
+    background: #ccc;
+}
+
+.nav_section ul li a:hover {
+    background: #fff;
+    color: #23AAF2;
+}
+
+.fa-truck::before {
+    color: #23AAF2;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #23AAF2;
+    border-radius: 45%;
+}
+
+.fa-drumstick-bite::before {
+    color: #23AAF2;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #23AAF2;
+    border-radius: 50%;
+}
+
+.form_section {
+    width: 380px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #23AAF2;
+    border-radius: 5px;
+}
+
+.form_section form {
+    width: 100%;
+    text-align: center;
+}
+
+.form_section form input {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 60px;
+    float: left;
+    border: none;
+}
+
+.form_section form i {
+    font-size: 30px;
+    padding: 5px 12px;
+    color: #fff;
+    background: #23AAF2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.find_location {
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+
+.find_location a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    color: #23AAF2;
+}
+
+.find_location a i {
+    font-size: 16px;
+    padding: 25px 5px;
+    color: #23AAF2;
+}
+
+.product_section {
+    width: 960px;
+    height: 550px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0px;
+    color: #181818;
+    position: relative;
+}
+
+.header h2::before {
+    position: absolute;
+    top: 52%;
+    height: 1px;
+    width: 39%;
+    background: #ccc;
+    content: '';
+    margin-left: -40%;
+}
+
+.header h2::after {
+    position: absolute;
+    top: 52%;
+    height: 1px;
+    width: 39%;
+    background: #ccc;
+    content: '';
+    right: -1px;
+}
+
+.first_row {
+    width: 470px;
+    height: 220px;
+    margin: 10px 0px;
+    float: left;
+    border-radius: 10px;
+}
+ 
+
+.first_row img {
+    width: 100%;
+    height: 100%;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: -1px 6px 8px -1px #888888;
+    cursor: pointer;
+}
+
+.second_row {
+    width: 470px;
+    height: 220px;
+    float: right;
+    margin: 10px 0px;
+}
+
+.second_row img {
+    width: 100%;
+    height: 100%;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: -1px 6px 8px -1px #888888;
+    cursor: pointer;
+}
+
+.footer {
+    width: 960px;
+    height: 30px;
+    margin: 0 auto;
+    background: #23AAF2;
+    text-align: center;
+}
+
+.footer a {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 5px;
+}
+
+.menu {
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+    background: #181818;
+    border-top: 3px solid #039d44;
+}
+
+.sub_menu {
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.list {
+    width: 100%;
+    height: 200px;
+}
+
+.list ul {
+    padding-top: 40px;
+    float: left;
+}
+
+.list ul li {
+    width: 140px;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.list ul li a {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.feedback {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feed h3 {
+    width: auto;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    padding-left: 270px;
+    float: left;
+}
+
+.feed a {
+    width: auto;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background: rgba(22, 160, 93, 0.8);
+    color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+}
+
+.feed a:hover {
+    background: #16A05D;
+}
+
+.follow {
+    width: 150px;
+    height: auto;
+    float: right;
+    text-align: center;
+}
+
+.follow h4 {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 38px;
+    color: #fff;
+    float: left;
+}
+
+.follow a {
+    display: inline-block;
+    font-weight: 600;
+    background: none;
+    padding: 10px 15px;
+    color: #fff;
+    transition: all linear 0.4s;
+}
+
+.follow a i {
+    font-size: 20px;
+}
+
+.follow a:hover {
+    color: #958b8b;
+}
+
+.copyright {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: #1b1b1bf5;
+}
+
+.copyright h4 {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 20px 0px;
+    color: #ddd;
+    font-family: century gothic;
+    
+}
